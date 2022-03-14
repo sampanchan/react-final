@@ -16,27 +16,27 @@ const Graph = ({ monday, tuesday, wednesday, thursday, friday, saturday, sunday 
         <div className="sin-graph" id="sin-graph">
         <div className="sin-day">
             <span>Monday</span>
-            <div className="sin-day__bar" style={{ width: `${monday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${monday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Tuesday</span>
-            <div className="sin-day__bar" style={{ width: `${tuesday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${tuesday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Wednesday</span>
-            <div className="sin-day__bar" style={{ width: `${wednesday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${wednesday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Thursday</span>
-            <div className="sin-day__bar" style={{ width: `${thursday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${thursday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Friday</span>
-            <div className="sin-day__bar" style={{ width: `${friday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${friday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Saturday</span>
-            <div className="sin-day__bar" style={{ width: `${saturday.length * 100}px` }} />
+            <div className="sin-day__bar" style={{ width: `${saturday.length * 10}%` }} />
         </div>
         <div className="sin-day">
             <span>Sunday</span>

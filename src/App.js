@@ -185,12 +185,12 @@ function App() {
               <div className="profile_image"> 
               </div>
                 <div className="profile_goals">
-                  <p>Sins committed <span>today</span><span id="todaySin">{todaySins(sunday.length)}</span></p>
-                  <p>Sins committed this <span>week</span><span id="weekSin">{weekSins()}</span></p>
+                  <p>Sins committed today    <span id="todaySin">{todaySins()}</span></p>
+                  <p>Sins committed this week <span id="weekSin">{ weekSins()}</span></p>
               </div>
             </div>
             <div className="sin-list">
-              <h2>Your Sins</h2>
+              <h2 className="your-sins">Your Sins</h2>
               <div className="sin-list__item">
                 {sins.length > 0 &&
                 sins.map((sin) => (
