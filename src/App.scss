@@ -1,0 +1,180 @@
+
+
+@import url("https://use.typekit.net/arh7pqg.css");
+
+body{
+    background: url(https://wallpapercave.com/wp/wp2674618.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100vh;
+    // background-position: center;
+}
+header{
+    
+    
+    margin-top: 2em;
+   
+    height: 15vh;
+    
+    text-align: center;
+    h1{
+        color: rgb(231, 154, 21);
+        font-family: Ohno Blazeface ;
+        text-transform: uppercase;
+        font-size: 3em;
+        text-align: center;
+        display: inline-block;
+        background-image: url(https://i.pinimg.com/originals/64/ae/89/64ae89e5d6037642e69bff06afd520d7.gif), url(https://i.pinimg.com/originals/64/ae/89/64ae89e5d6037642e69bff06afd520d7.gif) ;
+        background-position: 
+        top 0px left 0px,
+        top 0px right 0px;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        padding:20px 100px;
+    
+    }  
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family: trajan-pro-3, serif;
+    .submit-btn{
+        margin-top: 1rem;
+        border:none;
+        color: white;
+        background-color: rgb(9, 9, 142);
+        padding: 1rem;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        &:hover{
+            filter: drop-shadow(0 2mm 3mm rgb(255, 255, 255));
+            transition: .3s ease-in-out;
+        }
+    }
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &_image{
+        border-radius: 100%;
+        border: rgb(235, 203, 96) solid 2px;
+        filter: drop-shadow(0 2mm 8mm rgb(235, 203, 96));
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin-right: 1rem;
+        background-image: url(https://i.guim.co.uk/img/media/6e33829a164b5ead9706ccb18b4378cb0b059081/30_79_3773_2263/master/3773.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=dacade3747f4e31e5838171465f82638);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+//sins
+.sin-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    input[type="checkbox"] {
+        width: 10px;
+    }
+    input[type="text"] {
+        flex:1;
+    }
+}
+.sin{
+    span{
+        font-size: .8rem;
+    }
+}
+#todaySin, #weekSin{
+    color:red;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+
+.sin-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://www.freeiconspng.com/thumbs/scroll-png/scroll-background-png-8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width:500px;
+    max-height:100%;
+    font-size: 1rem;
+    
+    // min-height: 500px;
+    padding: 5rem;
+    
+    
+    &__item{
+        background-color: rgba(255, 255, 255, 0.8);
+        filter: drop-shadow(0 2mm 5mm rgb(87, 87, 87));
+        overflow: hidden;
+        overflow-y: scroll;
+        max-height: 170px;
+        max-width: 400px;
+        padding: 1rem;
+        font-size: 15px;
+        
+    }
+    div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        border-radius: 15px;
+    }
+}
+.delete-btn{
+    border:none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: .2rem;
+    width: 20px;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    &:hover{
+        color:red;
+    }
+}
+
+//graph
+
+.graph{
+    max-width: 800px;
+    background-color: white;
+    padding:1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    .sin-day{
+        span{
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+    }
+    .sin-graph{
+        max-width: 500px;
+    }
+}
+.sin-day__bar{
+    background-color:rgb(245, 215, 94);
+    height:30px;
+    width:0;
+    border-radius: 0px 5px 5px 0px;
+}
+h2{
+    text-align: center;
+}
